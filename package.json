@@ -20,6 +20,7 @@
   "homepage": "https://github.com/douglascpacheco/banco-web-tests#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.1"
+    "cypress": "^14.5.1",
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }

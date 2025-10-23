@@ -14,7 +14,7 @@ describe('Transferência', () => {
 
     it('Deve apresentar erro quando tentar transferir mais que 5 mil sem o token', () => {
         // Act
-        cy.realizarTranferencia('Maria Oliveira', 'João da Silva', '5000.01')
+        cy.realizarTranferencia('Maria Oliveira', 'João da Silva', '6000')
 
         // Assert
         cy.verificarMensagemNoToast('Autenticação necessária para transferências acima de R$5.000,00.')
